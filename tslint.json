@@ -1,0 +1,23 @@
+{
+	"extends": "tslint-config-airbnb",
+	"rules": {
+		"max-line-length": [true, 120],
+		"linebreak-style": [true, "LF"],
+		"no-else-after-return": [false],
+		"import-name": [false],
+		"align": [false, "parameters", "statements"],
+		"no-parameter-reassignment": [false],
+		"no-this-assignment": [false],
+		"prefer-array-literal": [false],
+		"function-name": [false],
+		"variable-name": [false]
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts"
+    ]
+	},
+	"object-shorthand-properties-first": false,
+	"no-shadowed-variable": true
+}
